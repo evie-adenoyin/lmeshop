@@ -1,0 +1,335 @@
+
+/* login button */
+#login-btn{
+    background-color: rgb(1, 120, 177);
+}
+
+/* Home carousel */
+#slide1{
+    background: url('../images/vika-aleksandrova-tJ6dWYTzlwU-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slide2{
+    background: url('../images/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slide3{
+    background: url('../images/banner-01.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slide4{
+    background: url('../images/IMG_E4957.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+#firstslide, #secondslide, #fourthslide{
+    margin-bottom: 7%;
+    text-align: left;
+}
+
+#thirdSlide{
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+#navlink:hover a{
+    color: #17a2b8;
+}
+
+#wallet:hover a{
+    color: #17a2b8;
+}
+
+#shop:hover a{
+    color: #17a2b8;
+}
+
+#cart:hover a{
+    color: #17a2b8;
+}
+
+
+#firstslide h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#secondslide h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#thirdSlide h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#fourthslide h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#firstslide p{
+    font-size: 25px;
+    margin-left: 1rem;
+    letter-spacing: .3rem;
+}
+
+#secondslide p{
+    font-size: 25px;
+    margin-left: 1rem;
+    letter-spacing: .3rem;
+}
+
+#thirdslide p{
+    font-size: 25px;
+    margin-left: 1rem;
+    letter-spacing: .3rem;
+}
+
+#fourthslide p{
+    font-size: 25px;
+    margin-left: 1rem;
+    letter-spacing: .3rem;
+}
+
+#firstslide h2{
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+#secondslide h2{
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+#secondslide ul li{
+    line-height: 1.9rem;
+}
+
+#fourthslide h2{
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+.startShopping{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#thirdslide h6{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 1rem;
+    line-height: 1.7rem;
+}
+
+/* shop list */
+.categories ul{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.categories ul a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.categories ul a li{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    width: 100%;
+    padding: 1rem 1rem 1rem 0;
+    color: rgb(0, 0, 0);
+}
+
+.categories ul a li:hover{
+    color: #17a2b8;
+}
+
+#numberItems{
+    width: 20px;
+}
+
+/* fashion */
+
+
+/* E-wallet student-info */
+.student-info{
+    margin-top: 3rem;
+    background: url('../images/account.jpg') ;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+#student-details{
+    position: relative;
+    top: 15%;
+    padding: 3rem;
+    line-height: 2rem;
+}
+
+#balance{
+    background-color: #17a2b8;
+    letter-spacing: .1rem;
+    margin-left: 1rem;
+    padding: .3rem 2rem;
+}
+
+.predict{
+    letter-spacing: .1rem;
+}
+
+
+/* student dashboard */
+.box{
+    border: 2px solid black;
+    padding: 4rem 6rem ;
+    border: none;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,.4);
+    text-align: center;
+    height: 15rem;
+}
+
+.box:hover{
+    transform: translateY(-20px);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.box h3{
+    width: 200px;
+    margin: auto;
+    width: 100%;
+}
+
+.box img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.box:hover img{
+    height: 70px;
+    width: 70px;
+    transition: .3s;
+}
+
+.box p{
+    width: 120%;
+    text-align: center;
+    font-size: 13px;
+    margin: auto;
+    margin-left: -1rem;
+}
+
+.order{
+    background: powderblue;
+}
+
+.pending{
+    background: rgb(241, 92, 92);
+}
+
+.delivery{
+   background:  rgb(185, 245, 94);
+}
+
+.payment{
+    background: rgb(247, 171, 29);
+}
+
+.transaction{
+    background: cadetblue;
+}
+
+.help{
+    background: grey;
+}
+
+
+/* shop */
+.shop{
+    margin-top: 3rem;
+    background: url('../images/banner-02.jpg') ;
+    height: 50vh;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#shop-header{
+    position: absolute;
+    top: 25%;
+    padding: 3rem;
+    line-height: 2rem;
+    color: white;
+    left: 4%;
+}
+
+/* cart */
+
+.cart{
+    margin-top: 3rem;
+    background: url('../images/IMG_E4957.JPG') ;
+    height: 50vh;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#cart-header{
+    position: absolute;
+    top: 25%;
+    padding: 3rem;
+    line-height: 2rem;
+    color: white;
+    left: 4%;
+}
+
+.quantity{
+    display: inline-block;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+
+.change-quantity{
+    cursor: pointer;
+    line-height: 0;
+    transition: .1s;
+    background: black;
+    color: white;
+    padding: .2rem .5rem;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.change-quantity:hover{
+    opacity: .6;
+}
+
+.down{
+    margin-top: 1px;
+}
+
+.vendorlinks{
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb .vendorlinks:hover{
+   color: cadetblue;
+}
+
+

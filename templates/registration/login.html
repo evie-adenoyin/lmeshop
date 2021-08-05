@@ -1,0 +1,51 @@
+{% extends 'shop/base_page.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+login
+{% endblock title %}
+{% block content %}
+
+
+<div class="container d-flex justify-content-center row" style="margin: 10rem 0;">
+    <div class="col-lg-6">
+        <h1 class="text-dark">About LME-CART </h1>
+        <p class="text-dark ">LME-CART created on the 25Th of March, 2021, is primarily for 
+          the purpose of enhancing time management and accessiblity of products
+          at any time and from anywhere in the Landmark community. Founder Ekong Evie Emmanuel, 
+          department of Electrical and Info. Engineering
+        </p>
+        <h1 class="text-dark">Become an Online Vendor</h1>
+        <p class="text-dark ">LME-CART gives students, non-students and small businesses the opportunity to have their products online. You don't need to share handles or profile pages on social media before students can see your products anymore!
+        </p>
+        <div class="">
+            <h6 href="" class="text-muted text-right text-decoration-none  ">Need an account?<span> <a href='{% url "vendor:VendorSignUp" %}' class="text-primary text-decoration-none">Register your business here</a></span> </h6>
+        </div>
+    </div>
+
+    <div class=" bg-light p-4 mx-3 col-lg-5" >
+
+        {% if messages %}
+            {% for message in messages  %}
+              <div class="alert alert-{{message.tags}}">{{message}}</div>
+            {% endfor %}
+        {% endif %}
+
+        <form action=""  method="POST">
+            <h2>Log In Here: </h2>
+            <div class="my-3">
+                {% csrf_token %}
+                {{form|crispy}}
+            </div>
+            
+            <a href="" class="text-primary text-decoration-none">Forgot password?</a>
+            <button class="btn btn-outline-info my-2 d-block" type="submit">Login</button>
+            <hr>
+            <p>Powerd by Evoke Inc.</p>
+        </form>
+      
+    </div>
+</div>
+   
+{% endblock content %}
+    
